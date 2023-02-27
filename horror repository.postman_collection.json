@@ -1,0 +1,995 @@
+{
+	"info": {
+		"_postman_id": "60d8dac6-4046-426f-95d4-6c08c72bdaca",
+		"name": "horror repository",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15862102"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?limit=10&offset=0&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&periodoInicio=01-01-1951&periodoFim=01-01-1952&ano=1951&mes=10&dia=31&id[]=115609&id[]=1028909&rangeAvaliacaoInicio=1&rangeAvaliacaoFim=4&avaliacaoMaiorQue=3&avaliacaoMenorQue=3&avaliacaoIgualA=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date"
+						},
+						{
+							"key": "crescente",
+							"value": "0"
+						},
+						{
+							"key": "key[]",
+							"value": "id"
+						},
+						{
+							"key": "key[]",
+							"value": "title"
+						},
+						{
+							"key": "key[]",
+							"value": "overview"
+						},
+						{
+							"key": "key[]",
+							"value": "release_date"
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average"
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path"
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951"
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952"
+						},
+						{
+							"key": "ano",
+							"value": "1951"
+						},
+						{
+							"key": "mes",
+							"value": "10"
+						},
+						{
+							"key": "dia",
+							"value": "31"
+						},
+						{
+							"key": "id[]",
+							"value": "115609"
+						},
+						{
+							"key": "id[]",
+							"value": "1028909"
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1"
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4"
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3"
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3"
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10"
+						}
+					]
+				},
+				"description": "horror repository"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?limit=10&offset=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "crescente",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "id",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "overview",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path",
+							"disabled": true
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951",
+							"disabled": true
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952",
+							"disabled": true
+						},
+						{
+							"key": "ano",
+							"value": "1951",
+							"disabled": true
+						},
+						{
+							"key": "mes",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "dia",
+							"value": "31",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "115609",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "1028909",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Peginação"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?orderBy=release_date&crescente=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date"
+						},
+						{
+							"key": "crescente",
+							"value": "0"
+						},
+						{
+							"key": "key[]",
+							"value": "id",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "overview",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path",
+							"disabled": true
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951",
+							"disabled": true
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952",
+							"disabled": true
+						},
+						{
+							"key": "ano",
+							"value": "1951",
+							"disabled": true
+						},
+						{
+							"key": "mes",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "dia",
+							"value": "31",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "115609",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "1028909",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Ordenação"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "crescente",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "id"
+						},
+						{
+							"key": "key[]",
+							"value": "title"
+						},
+						{
+							"key": "key[]",
+							"value": "overview"
+						},
+						{
+							"key": "key[]",
+							"value": "release_date"
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average"
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path"
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951",
+							"disabled": true
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952",
+							"disabled": true
+						},
+						{
+							"key": "ano",
+							"value": "1951",
+							"disabled": true
+						},
+						{
+							"key": "mes",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "dia",
+							"value": "31",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "115609",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "1028909",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Selecionando as colunas que eu quero"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?periodoInicio=01-01-1951&periodoFim=01-01-1952&ano=1951&mes=10&dia=31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "crescente",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "id",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "overview",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path",
+							"disabled": true
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951"
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952"
+						},
+						{
+							"key": "ano",
+							"value": "1951"
+						},
+						{
+							"key": "mes",
+							"value": "10"
+						},
+						{
+							"key": "dia",
+							"value": "31"
+						},
+						{
+							"key": "id[]",
+							"value": "115609",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "1028909",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Buscando por período"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?id[]=115609&id[]=1028909",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "crescente",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "id",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "overview",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path",
+							"disabled": true
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951",
+							"disabled": true
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952",
+							"disabled": true
+						},
+						{
+							"key": "ano",
+							"value": "1951",
+							"disabled": true
+						},
+						{
+							"key": "mes",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "dia",
+							"value": "31",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "115609"
+						},
+						{
+							"key": "id[]",
+							"value": "1028909"
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Buscando filmes específicos"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/buscar?rangeAvaliacaoInicio=1&rangeAvaliacaoFim=4&avaliacaoMaiorQue=3&avaliacaoMenorQue=3&avaliacaoIgualA=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "crescente",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "id",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "overview",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path",
+							"disabled": true
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951",
+							"disabled": true
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952",
+							"disabled": true
+						},
+						{
+							"key": "ano",
+							"value": "1951",
+							"disabled": true
+						},
+						{
+							"key": "mes",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "dia",
+							"value": "31",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "115609",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "1028909",
+							"disabled": true
+						},
+						{
+							"key": "rangeAvaliacaoInicio",
+							"value": "1"
+						},
+						{
+							"key": "rangeAvaliacaoFim",
+							"value": "4"
+						},
+						{
+							"key": "avaliacaoMaiorQue",
+							"value": "3"
+						},
+						{
+							"key": "avaliacaoMenorQue",
+							"value": "3"
+						},
+						{
+							"key": "avaliacaoIgualA",
+							"value": "10"
+						}
+					]
+				},
+				"description": "Buscando por avaliação"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3002/?limit=10&offset=10&orderBy=release_date&crescente=0&key[]=id&key[]=title&key[]=overview&key[]=release_date&key[]=vote_average&key[]=poster_path&dataInicio=01-01-1951&dataFim=01-01-2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/exibir?id[]=115609&id[]=1028909",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"exibir"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "crescente",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "id",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "overview",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "release_date",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "vote_average",
+							"disabled": true
+						},
+						{
+							"key": "key[]",
+							"value": "poster_path",
+							"disabled": true
+						},
+						{
+							"key": "periodoInicio",
+							"value": "01-01-1951",
+							"disabled": true
+						},
+						{
+							"key": "periodoFim",
+							"value": "01-01-1952",
+							"disabled": true
+						},
+						{
+							"key": "ano",
+							"value": "1951",
+							"disabled": true
+						},
+						{
+							"key": "mes",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "dia",
+							"value": "31",
+							"disabled": true
+						},
+						{
+							"key": "id[]",
+							"value": "115609"
+						},
+						{
+							"key": "id[]",
+							"value": "1028909"
+						}
+					]
+				},
+				"description": "Exibir um ou mais filmes específicos"
+			},
+			"response": []
+		}
+	]
+}

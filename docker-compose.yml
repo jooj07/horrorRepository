@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  database:
+    build: 
+      context: ./db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: 123456
+  app:
+    build: 
+      context: ./backend
+    ports: 
+      - "3002:3002"
+    environment:
+      PASSWORD: 123456
+      HOST: database
+      PORT: 5432
+    command: [ "npm", "run", "dev" ]

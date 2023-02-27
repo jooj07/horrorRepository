@@ -1,0 +1,14 @@
+{
+  "name": "docker-csv-to-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reload": "docker-compose --project-name horror-repository up -d --no-deps --build app",
+    "mount-it": "docker-compose --project-name horror-repository up",
+    "mount-d": "docker-compose --project-name horror-repository up -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
